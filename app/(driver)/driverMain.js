@@ -71,7 +71,7 @@ export default studMain = () => {
             <Pressable
               style={styles.eventsList}
               onPress={() => {
-                navigation.navigate('DriverMorning');
+                alert('Backend not live!');
               }}
             >
               <View style={styles.eventIconWrapper}>
@@ -89,7 +89,7 @@ export default studMain = () => {
             <Pressable
               style={styles.eventsList}
               onPress={() => {
-                alert('Driver DropOff will be available soon!!!');
+                alert('Backend not live!');
               }}
             >
               <View style={styles.eventIconWrapper}>
@@ -144,7 +144,7 @@ const styles = StyleSheet.create({
     height: 45,
     width: 45,
     backgroundColor: '#ffd600',
-    borderRadius: '100%',
+    borderRadius: 50,
     justifyContent: 'center',
     alignItems: 'center',
   },

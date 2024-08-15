@@ -176,7 +176,7 @@ export default studMain = () => {
           <View style={styles.lowerFooter}>
             <Pressable
               onPress={() => {
-                router.push('studDash');
+                alert('Backend not live!');
               }}
             >
               <FontAwesome name='user-circle-o' size={40} color='black' />
@@ -202,7 +202,7 @@ const styles = StyleSheet.create({
     height: 45,
     width: 45,
     backgroundColor: '#ffd600',
-    borderRadius: '100%',
+    borderRadius: 50,
     justifyContent: 'center',
     alignItems: 'center',
   },
