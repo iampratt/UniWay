@@ -31,9 +31,14 @@ export default index = () => {
             <Text style={styles.welcome}>Welcome</Text>
             <Text style={styles.login}>Log In with your college email id</Text>
           </Pressable>
-          <View style={styles.signupWrapper}>
+          <Pressable
+            onPress={() => {
+              router.push('signup');
+            }}
+            style={styles.signupWrapper}
+          >
             <Text style={styles.signup}>sign up</Text>
-          </View>
+          </Pressable>
         </View>
       </SafeAreaView>
     </View>

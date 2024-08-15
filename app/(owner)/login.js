@@ -42,7 +42,7 @@ export default LogIn = () => {
       </KeyboardAvoidingView>
       <Pressable
         onPress={() => {
-          router.push('studMain');
+          router.push('ownerMain');
         }}
       >
         <View style={styles.button}>
