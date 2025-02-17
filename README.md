@@ -1,6 +1,6 @@
 # Uniway
 
-Uniway is a cab route management app designed to enhance transportation efficiency for students at Manipal University Jaipur. It offers real-time cab tracking, optimized routes, and seamless ride booking. Ranked in the top 5 out of 200 projects at Project Expo Jaipur, it serves over 7,000 students daily.
+Uniway is a cab route management app designed to enhance transportation efficiency for college students. It offers real-time cab tracking, optimized routes, and seamless ride booking. Ranked in the top 5 out of 200 projects at Project Expo Jaipur.
 
 
 
